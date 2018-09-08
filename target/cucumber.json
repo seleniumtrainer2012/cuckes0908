@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Create account",
+        "description": "",
+        "id": "zoho-crm-create-account-functinality;create-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98179453,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I launch zoho crm website",
+            "match": {
+              "location": "ZohoCRMHome.i_launch_zoho_crm_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82690,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter firstname, lastname, email and mobileNumber",
+            "match": {
+              "location": "ZohoCRMHome.i_enter_firstname_lastname_email_and_mobileNumber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69475,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Account shouild be created successfully",
+            "match": {
+              "location": "ZohoCRMHome.account_shouild_be_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Zoho CRM Create account functinality",
+    "description": "I want to use this template for my feature file",
+    "id": "zoho-crm-create-account-functinality",
+    "keyword": "Feature",
+    "uri": "Create account.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
